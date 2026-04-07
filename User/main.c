@@ -92,10 +92,10 @@ int main(void) {
     
     // Yellow
     GPIO_WriteBit(GPIOC, YELLOW_LED_PIN, Bit_SET);
-    Delay_Ms(500);
+    Delay_Ms(1000);
     
     GPIO_WriteBit(GPIOC, RED_LED_PIN, Bit_RESET);
-    Delay_Ms(2000);
+    //Delay_Ms(2000);
 
     GPIO_WriteBit(GPIOC, YELLOW_LED_PIN, Bit_RESET);
 
